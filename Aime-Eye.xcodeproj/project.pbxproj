@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D97AFBBF2554A1F000EE5010 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D97AFBBE2554A1F000EE5010 /* Launch Screen.storyboard */; };
+		D97AFBC42554A2BE00EE5010 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D97AFBC32554A2BE00EE5010 /* Storyboard.storyboard */; };
 		D9B3B57B254B206100100D3E /* Aime_EyeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B3B57A254B206100100D3E /* Aime_EyeApp.swift */; };
 		D9B3B57D254B206100100D3E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B3B57C254B206100100D3E /* ContentView.swift */; };
 		D9B3B57F254B206400100D3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9B3B57E254B206400100D3E /* Assets.xcassets */; };
@@ -33,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D97AFBBE2554A1F000EE5010 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		D97AFBC32554A2BE00EE5010 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		D9B3B577254B206100100D3E /* Aime-Eye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aime-Eye.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9B3B57A254B206100100D3E /* Aime_EyeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aime_EyeApp.swift; sourceTree = "<group>"; };
 		D9B3B57C254B206100100D3E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -100,6 +104,7 @@
 				D9B3B57E254B206400100D3E /* Assets.xcassets */,
 				D9B3B583254B206400100D3E /* Info.plist */,
 				D9B3B580254B206400100D3E /* Preview Content */,
+				D97AFBBE2554A1F000EE5010 /* Launch Screen.storyboard */,
 			);
 			path = "Aime-Eye";
 			sourceTree = "<group>";
@@ -108,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				D9B3B581254B206400100D3E /* Preview Assets.xcassets */,
+				D97AFBC32554A2BE00EE5010 /* Storyboard.storyboard */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -233,6 +239,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D97AFBBF2554A1F000EE5010 /* Launch Screen.storyboard in Resources */,
+				D97AFBC42554A2BE00EE5010 /* Storyboard.storyboard in Resources */,
 				D9B3B582254B206400100D3E /* Preview Assets.xcassets in Resources */,
 				D9B3B57F254B206400100D3E /* Assets.xcassets in Resources */,
 			);
